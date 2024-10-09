@@ -80,6 +80,9 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.b. TODO: Create a variable `entree` and assign it a string value of
 //      an entree that you enjoy.
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
+let entree = 'fettucine alfredo';
+favoriteFoods.unshift(entree);
+console.log('added entree',favoriteFoods);
 
 
 // Example: Remove the last animal by using the Array.pop method.
