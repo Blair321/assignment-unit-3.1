@@ -26,7 +26,6 @@ console.log('Number of animals:', numberOfAnimals);
 let numberOfFoods = favoriteFoods.length
 console.log('Number of favorite foods', numberOfFoods);
 
-
 // Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
@@ -38,6 +37,8 @@ console.log('First animal is', firstAnimal);
 //      of the second item from the `animalArray`.
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
+let secondAnimal = animalArray[1];
+console.log('Second Animal', secondAnimal);
 
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
